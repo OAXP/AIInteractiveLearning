@@ -10,6 +10,11 @@ npm install
 This will install all the dependencies needed for the project to run.
 
 ## Usage
+To be able to run the project, you have to add this to `.env` file :
+```env
+VITE_GEMINI_API_KEY=your-gemini-api-key
+```
+
 To use the project, you need to run the following command in the root folder of the project:
 ```bash
 npm start
