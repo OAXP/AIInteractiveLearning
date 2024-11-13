@@ -29,7 +29,7 @@ export async function evaluateAnswer(
   answer: string,
   context: string
 ): Promise<FeedbackResponse> {
-  const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
   
   const prompt = `Question: ${question}
     User's Answer: ${answer}
